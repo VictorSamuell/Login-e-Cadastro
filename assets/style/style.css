@@ -35,3 +35,57 @@ body{
     box-shadow: 3px 3px 35px -19px rgba(0,0,0,0.8);
 
 }
+
+
+/*form*/
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+
+/*form .button-field*/
+.form-box form .button-field{
+    
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+    
+    
+    
+}
+
+.form-box header{
+
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0de;
+    margin-bottom: 10px;
+
+}
+/*.input-field input*/
+.form-box form .input-field input{
+
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+
+
+}
+
+
+.btn{
+
+    height: 35px;
+    background: rgb(82, 218, 82) ;
+    border: 0;
+    border-radius: 5px;
+    color: #181817;
+    font-size: 15px;
+
+
+}

@@ -73,6 +73,8 @@ body{
     border-radius: 5px;
     border: 1px solid #ccc;
     outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
 
 }
@@ -86,6 +88,25 @@ body{
     border-radius: 5px;
     color: #181817;
     font-size: 15px;
+    transition: all .2s;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.btn:hover{
+
+    opacity: 0.8;
+    background-color: rgb(41, 196, 41);
 
 
 }
+
+.links{
+
+    margin-bottom: 15px;
+
+}
+.submit{
+    width: 100%;
+}
+

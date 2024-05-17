@@ -30,7 +30,7 @@ body{
     background-color: #f0efed;
     display: flex;
     flex-direction: column;
-    padding: 27px 27px;
+    padding: 40px 30px;
     border-radius: 20px;
     box-shadow: 3px 3px 35px -19px rgba(0,0,0,0.8);
 
@@ -110,3 +110,16 @@ body{
     width: 100%;
 }
 
+
+/* menu --- */
+
+.nav{
+
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100px;
+    
+}

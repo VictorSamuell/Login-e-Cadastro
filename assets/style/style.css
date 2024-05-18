@@ -115,11 +115,109 @@ body{
 
 .nav{
 
-    background: #fff;
+    background-color: #f0efec;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     line-height: 60px;
     z-index: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+/*pensar em um nome pra logo*/
+.logo{
+
     
+    font-size: 25px;
+    font-weight: 900;
+
+}
+
+.right-links a{
+
+    padding: 0 10px;
+
+
+}
+
+
+main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+/* main-box top
+*/
+
+.main-box{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+
+}
+
+
+.main-box .top{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.bottom{
+
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+
+@media only screen and (max-width:840px){
+
+    .main-box .top{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .top .box{
+
+        margin:10px 10px;
+
+
+    }
+
+    .bottom{
+
+        margin-top: 0;
+
+    }
+
+
+
+
+}
+
+.main-box .bottom .box{
+
+    margin: 7px;
+
+}
+
+
+.main-box .top .box{
+
+    width: 100%;
+    margin: 7px;
+
 }

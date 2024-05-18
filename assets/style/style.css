@@ -134,6 +134,15 @@ body{
 
 }
 
+/*link da logo*/
+
+.logo a{
+
+text-decoration: none;
+color: rgb(14, 13, 13);
+
+}
+
 .right-links a{
 
     padding: 0 10px;
